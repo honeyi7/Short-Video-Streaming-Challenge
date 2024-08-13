@@ -5,6 +5,9 @@ This repository contains the simulator code used for ACM Multimedia 2022 Short V
 
 > Currently at Version 1 ：Updated at 4/22
 
+#Attention
+In this project, the `utils` function in the NumPy library was renamed to `utils_impl` in version 2.0. It is recommended to run this project with NumPy versions earlier than 2.0.
+
 # Quick Start
 
 We provide a demo which aims at helping you to learn what parameters you need to decide in the challenge. It only gives you some clues to things you can do to improve the algorithm, so it isn't necessarily reasonable. You need to find a better solution to balance QoE and bandwidth waste.
