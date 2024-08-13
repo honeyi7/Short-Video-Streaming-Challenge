@@ -7,7 +7,7 @@ This repository contains the simulator code used for ACM Multimedia 2022 Short V
 
 #Attention
 
-In this project, the `utils` function in the NumPy library was renamed to `utils_impl` in version 2.0. It is recommended to run this project with NumPy versions earlier than 2.0.
+In this project, the `utils` function in the NumPy library was renamed to `_utils_impl` in version 2.0. It is recommended to run this project with NumPy versions earlier than 2.0.
 
 # Quick Start
 
