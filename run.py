@@ -57,14 +57,14 @@ def test(isBaseline, isQuickstart, user_id, trace_id, user_sample_id):
     if isBaseline:  # Testing baseline algorithm
         sys.path.append('./baseline/')
         if user_id == 'no_save':
-            import no_save as Solution
+            import baseline.no_save as Solution
             LOG_FILE = 'logs/log_nosave.txt'
             log_file = open(LOG_FILE, 'w')
         sys.path.remove('./baseline/')
     elif isQuickstart:  # Testing quickstart algorithm
         sys.path.append('./quickstart/')
         if user_id == 'fixed_preload':
-            import fix_preload as Solution
+            import quickstart.fix_preload as Solution
             LOG_FILE = 'logs/log_fixpreload.txt'
             log_file = open(LOG_FILE, 'w')
         sys.path.remove('./quickstart/')        
